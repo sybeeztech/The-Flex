@@ -1,0 +1,14 @@
+# Amplify Environment Variables Configuration
+# Add these in your AWS Amplify Console → App Settings → Environment Variables
+
+# Backend API URL (update with your EC2 details)
+VITE_API_URL=http://YOUR_EC2_PUBLIC_IP:3001/api
+
+# For production with domain and SSL:
+# VITE_API_URL=https://api.yourdomain.com/api
+
+# Build settings
+NODE_VERSION=18
+
+# Optional: Enable build caching
+AMPLIFY_ENABLE_DIFF_DEPLOY=true
